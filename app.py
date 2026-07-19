@@ -72,7 +72,7 @@ set_background("image.png")
 st.title('Movie Recommender System')
 
 selected_movie_name = st.selectbox(
-    'How would you like to be contacted?',
+    'Select a movie',
     movies['title'].values
 )
 
